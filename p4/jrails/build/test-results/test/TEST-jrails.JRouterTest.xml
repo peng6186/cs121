@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jrails.JRouterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-11-15T14:56:08" hostname="pengMac.local" time="0.005">
+  <properties/>
+  <testcase name="addRoute" classname="jrails.JRouterTest" time="0.001"/>
+  <testcase name="testRoute" classname="jrails.JRouterTest" time="0.004"/>
+  <testcase name="getRoute" classname="jrails.JRouterTest" time="0.0"/>
+  <system-out><![CDATA[Entering route()
+str_method: books.BookController#index
+className: books.BookController
+methodName: index
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

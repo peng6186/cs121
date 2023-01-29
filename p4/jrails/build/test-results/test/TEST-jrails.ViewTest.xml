@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jrails.ViewTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2022-11-15T14:56:08" hostname="pengMac.local" time="0.002">
+  <properties/>
+  <testcase name="test_br" classname="jrails.ViewTest" time="0.0"/>
+  <testcase name="test_h1" classname="jrails.ViewTest" time="0.001"/>
+  <testcase name="test_td" classname="jrails.ViewTest" time="0.0"/>
+  <testcase name="test_th" classname="jrails.ViewTest" time="0.0"/>
+  <testcase name="test_tr" classname="jrails.ViewTest" time="0.0"/>
+  <testcase name="test_form" classname="jrails.ViewTest" time="0.0"/>
+  <testcase name="test_div" classname="jrails.ViewTest" time="0.0"/>
+  <testcase name="test_p" classname="jrails.ViewTest" time="0.0"/>
+  <testcase name="test_t" classname="jrails.ViewTest" time="0.0"/>
+  <testcase name="test_linkto" classname="jrails.ViewTest" time="0.0"/>
+  <testcase name="test_strong" classname="jrails.ViewTest" time="0.0"/>
+  <testcase name="test_submit" classname="jrails.ViewTest" time="0.0"/>
+  <testcase name="empty" classname="jrails.ViewTest" time="0.0"/>
+  <testcase name="test_textarea" classname="jrails.ViewTest" time="0.0"/>
+  <testcase name="test_table" classname="jrails.ViewTest" time="0.0"/>
+  <testcase name="test_tbody" classname="jrails.ViewTest" time="0.0"/>
+  <testcase name="test_thead" classname="jrails.ViewTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,3 @@
+9###books.Book###title=title1###author=author1###num_copies=1
+10###books.Book###title=title3###author=author3###num_copies=3
+11###books.Book###title=new_title28###author=new_author28###num_copies=28

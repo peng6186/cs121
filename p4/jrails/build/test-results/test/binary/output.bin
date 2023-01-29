@@ -1,0 +1,4 @@
+()Entering route()
+()'str_method: books.BookController#index
+() className: books.BookController
+()methodName: index

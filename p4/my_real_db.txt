@@ -1,0 +1,2 @@
+1###books.Book###title=Book1###author=author1###num_copies=1
+2###books.Book###title=Book2###author=author2###num_copies=2

@@ -1,0 +1,44 @@
+# Write down your multi-threading designs here!
+
+1. In MBTA, We use wrapper class to incorporate diff entities and their status (e.g. as shown below):
+
+***************************************
+
+Class TrainWrapper {
+	Train t;
+
+    // some status variables
+
+}
+
+Class PassengerWrapper {
+	Passenger p;
+
+    // some status variables
+
+}
+
+Class StationWrapper {
+	Station s;
+
+    // some status variables
+
+}
+
+2. The locks we use is in Station Wrapper Class, and we have diff locks (and conditions) for Trains and Passengers:
+
+*****************************************
+Class StationWrapper {
+     /*  fields as before */
+
+    Lock s_train_lock = new Reentrantlock();
+    Condition s_train_lock_con = s_train_lock.newCondition();
+
+    Lock s_pas_board_lock = new Reentrantlock();
+    Condition s_pas_board_lock = s_train_lock.newCondition();
+
+    Lock s_pas_deboard_lock = new Reentrantlock();
+    Condition s_pas_deboard_lock_con = s_train_lock.newCondition();
+}
+
+In such way, trains' behaviors won't entangle with passengers behaviors. And for passengers, debording passengers also separate from boarding passengers. 
